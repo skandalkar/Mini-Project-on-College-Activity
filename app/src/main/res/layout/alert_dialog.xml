@@ -1,0 +1,55 @@
+<!-- res/layout/bottom_sheet_dialog.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Allow Google to save your vitals data?"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:paddingBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vitals data refers to measurements of certain body functions, including information about your heart rate, respiratory rate, blood pressure, oxygen saturation, body temperature, and blood glucose."
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="When you add this data to Fit, it’s saved in your Google Account. Fit uses this data to show you a history of your vitals measurements, trends in your data, and to calculate other related wellness metrics."
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fit also uses this data to develop and improve Google's health and fitness services. Usage data is collected for troubleshooting and product improvement."
+        android:paddingBottom="24dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/allowButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ok"
+            android:layout_marginStart="16dp" />
+    </LinearLayout>
+
+</LinearLayout>

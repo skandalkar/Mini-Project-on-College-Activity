@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splash_Activity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="300dp"
+        android:layout_gravity="center"
+        android:padding="0dp"
+        android:src="@drawable/icon"
+        tools:ignore="ContentDescription"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:letterSpacing="0.2"
+        android:text="expendi"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/universal"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:letterSpacing="0.005"
+        android:text="manage your expenses"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/universal"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="35dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="250dp"
+        android:indeterminate="true"
+        android:max="100"
+        android:outlineSpotShadowColor="@color/black"
+        android:progress="0" />
+
+
+</LinearLayout>
