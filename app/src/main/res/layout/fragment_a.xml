@@ -1,14 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".FragmentA">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="What is your main source of Income?"
+        android:textSize="18dp"
+        android:paddingStart="5dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="15dp"
+        >
+
+        <RadioButton
+            android:id="@+id/frag_a_r1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_style"
+            android:padding="15dp"
+            android:text="Salary"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            />
+        <RadioButton
+            android:id="@+id/frag_a_r2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_style"
+            android:padding="15dp"
+            android:text="Freelancing"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            />
+        <RadioButton
+            android:id="@+id/frag_a_r3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_style"
+            android:padding="15dp"
+            android:text="Business"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            />
+        <RadioButton
+            android:id="@+id/frag_a_r4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_style"
+            android:padding="15dp"
+            android:text="Investments"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            />
+        <RadioButton
+            android:id="@+id/frag_a_r5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_style"
+            android:padding="15dp"
+            android:text="Other"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            />
+
+
+    </RadioGroup>
 
 </FrameLayout>

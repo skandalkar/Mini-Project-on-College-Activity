@@ -5,10 +5,87 @@
     android:layout_height="match_parent"
     tools:context=".FragmentC">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="How satisfied are you with your current financial situation?"
+        android:textSize="18dp"
+        android:paddingStart="5dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="17dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="15dp"
+        >
+
+        <RadioButton
+            android:id="@+id/frag_c_r1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_style"
+            android:padding="15dp"
+            android:text="Very satisfied"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            />
+        <RadioButton
+            android:id="@+id/frag_c_r2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_style"
+            android:padding="15dp"
+            android:text="Somewhat satisfied"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            />
+        <RadioButton
+            android:id="@+id/frag_c_r3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_style"
+            android:padding="15dp"
+            android:text="Neither satisfied nor dissatisfied"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            />
+        <RadioButton
+            android:id="@+id/frag_c_r4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_style"
+            android:padding="15dp"
+            android:text="Somewhat dissatisfied"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            />
+        <RadioButton
+            android:id="@+id/frag_c_r5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_style"
+            android:padding="15dp"
+            android:text="Very dissatisfied"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            />
+
+
+    </RadioGroup>
 
 </FrameLayout>
