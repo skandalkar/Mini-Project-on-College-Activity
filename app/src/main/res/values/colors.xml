@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- this is our primary color
+    <color name="universal">#0373F4</color>
+    -->
+
+    <color name="universal">#0666EB</color>
+
+    <color name="grey">#808080</color>
+    <color name="light_grey">#D9D9D9</color>
+    <color name="dark_grey">#919191</color>
+
+    <color name="blue">#2196F3</color>
+
+    <color name="color_progress_1">#0666EB</color>
+
+
+    <color name="fragment">#8FF3F3F3</color>
+</resources>

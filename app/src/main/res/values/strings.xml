@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="app_name">Expense_Track</string>
+
+    <string name="screen1">Welcome to Expendi</string>
+    <string name="screen2">Take Controls of Your Finances</string>
+    <string name="screen3">Your Data is Secure</string>
+
+    <string name="screen1desc">
+        Take Change of Your Spending Effortlessly and Track Your Expenses
+    </string>
+
+    <string name="screen2desc">
+        Track, Manage and Analyze Your Expenses with Ease and like a Pro
+    </string>
+
+    <string name="screen3desc">
+        Peace of Mind with Secure Data Protection, We Prioritize Your Privacy
+    </string>
+
+    <!--
+    <string name="startDesc">
+       Create a long video or shorts and upload on youtube. Interact with your subscribers on youtube live.
+    </string>
+-->
+
+</resources>
