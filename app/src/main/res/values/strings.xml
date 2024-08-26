@@ -17,6 +17,8 @@
     <string name="screen3desc">
         Peace of Mind with Secure Data Protection, We Prioritize Your Privacy
     </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <!--
     <string name="startDesc">
