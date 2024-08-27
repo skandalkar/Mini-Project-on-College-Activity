@@ -61,7 +61,7 @@ public class SignUpActivity extends AppCompatActivity {
         });
 
 
-        terms_conditions.setText(Html.fromHtml("<u>Forgot Password?</u>"));
+        terms_conditions.setText(Html.fromHtml("<u>Terms & Conditions</u>"));
 
         /** For terms and conditions simple dialog-box */
         terms_conditions.setOnClickListener(new View.OnClickListener() {
