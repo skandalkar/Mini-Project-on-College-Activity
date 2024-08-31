@@ -1,0 +1,43 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/rounded_progressbar_dialog">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            >
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:indeterminate="true"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tvMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Signing..."
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/roboto_regular"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_gravity="center"
+                android:padding="2dp"
+                />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
