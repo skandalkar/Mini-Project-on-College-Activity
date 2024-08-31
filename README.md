@@ -35,10 +35,10 @@
 1. **Requirement Analysis:** Gather and finalize all functional and non-functional requirements.
 2. **Design:** Create wireframes and UI/UX designs for the app.
 3. **Development:**
-                * Set up the project in Android Studio.
-                * Develop the frontend with the necessary screens and fragments.
-                * Implement backend logic using Java.
-                * Integrate with UPI APIs and Firebase.
+   [x] Set up the project in Android Studio.
+   [x] Develop the frontend with the necessary screens and fragments.
+   [x] Implement backend logic using Java.
+   [x] Integrate with UPI APIs and Firebase.
 4. **Testing:** Conduct unit, integration, and user acceptance testing.
 5. **Documentation:** Prepare a comprehensive report covering the design, implementation, testing, and conclusions.
 
