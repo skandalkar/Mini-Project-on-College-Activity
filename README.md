@@ -4,6 +4,7 @@
  Here's how you can approach it:
 
 •	**Project Overview**
+
    The "Expense Tracker App" will help users manage their finances by tracking expenses and incomes.
    It offers automatic and manual entry options, integrates with UPI apps for real-time expense tracking, and ensures data security through authentication mechanisms.
 
