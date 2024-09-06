@@ -54,7 +54,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mobile No:"
+        android:text="Email:"
         android:textColor="@color/black"
         android:textStyle="bold"
         android:textSize="17sp"
@@ -69,8 +69,8 @@
         android:id="@+id/mobileNO"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text=""
-        android:inputType="phone"
+        android:hint="Enter email address"
+        android:inputType="textEmailAddress"
         android:background="@drawable/input_style"
         android:paddingStart="15sp"
         android:padding="15sp"
@@ -82,7 +82,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="UPI ID:"
+        android:text="Username:"
         android:textColor="@color/black"
         android:textStyle="bold"
         android:textSize="17sp"
@@ -97,7 +97,7 @@
         android:id="@+id/UPIid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text=""
+        android:hint="Enter username"
         android:background="@drawable/input_style"
         android:inputType="text"
         android:padding="15sp"
@@ -125,7 +125,7 @@
         android:id="@+id/passWord"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text=""
+        android:hint="Enter password"
         android:inputType="textPassword"
         android:background="@drawable/input_style"
         android:padding="15sp"
@@ -239,6 +239,7 @@
                 android:background="@drawable/icon_style"
                 />
 
+            <!--
             <ImageView
                 android:id="@+id/facebookIn"
                 android:layout_width="70dp"
@@ -246,8 +247,9 @@
                 android:src="@drawable/facebook"
                 android:layout_marginLeft="5sp"
                 android:padding="12sp"
-                android:background="@drawable/icon_style"/>
-
+                android:background="@drawable/icon_style"
+            />
+            -->
         </TableRow>
 
     </TableLayout>

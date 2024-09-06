@@ -1,370 +1,385 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".SignUpActivity">
 
-    <TextView
+    <ScrollView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:letterSpacing="0.01"
-        android:text="Create Account"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textColor="@color/black"
-        android:textSize="28sp"
-        android:textStyle="bold"
-        android:fontFamily="@font/roboto_bold"
-        tools:ignore="TextSizeCheck" />
+        android:layout_height="wrap_content">
 
-    <TextView
-        android:layout_width="330dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="19sp"
-        android:layout_marginTop="5dp"
-        android:layout_marginRight="19sp"
-        android:fontFamily="@font/roboto_regular"
-        android:gravity="center"
-        android:padding="5dp"
-        android:text="Fill your information below or register with your social account"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="16sp" />
-
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Name:"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        android:textSize="17sp"
-        android:layout_marginTop="12dp"
-        android:layout_marginLeft="30sp"
-        android:layout_marginRight="30sp"
-        android:layout_marginBottom="5sp"
-        />
-
-
-    <EditText
-        android:id="@+id/userName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter your name "
-        android:inputType="text"
-        android:background="@drawable/input_style"
-        android:paddingStart="15sp"
-        android:padding="15sp"
-        android:layout_marginTop="0dp"
-        android:layout_marginLeft="30sp"
-        android:layout_marginRight="30sp"
-        />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Email:"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        android:textSize="17sp"
-        android:layout_marginTop="12dp"
-        android:layout_marginLeft="30sp"
-        android:layout_marginRight="30sp"
-        android:layout_marginBottom="5sp"
-        />
-
-
-    <EditText
-        android:id="@+id/userEmail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter email address"
-        android:background="@drawable/input_style"
-        android:inputType="textEmailAddress"
-        android:padding="15sp"
-        android:paddingStart="15sp"
-        android:layout_marginTop="0dp"
-        android:layout_marginLeft="30sp"
-        android:layout_marginRight="30sp"
-        />
-
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mobile No:"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        android:textSize="17sp"
-        android:layout_marginTop="12dp"
-        android:layout_marginLeft="30sp"
-        android:layout_marginRight="30sp"
-        android:layout_marginBottom="5sp"
-        />
-
-
-    <EditText
-        android:id="@+id/userMobile"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter mobile no"
-        android:inputType="phone"
-        android:background="@drawable/input_style"
-        android:paddingStart="15sp"
-        android:padding="15sp"
-        android:layout_marginTop="0dp"
-        android:layout_marginLeft="30sp"
-        android:layout_marginRight="30sp"
-        />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="UPI ID:"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        android:textSize="17sp"
-        android:layout_marginTop="12dp"
-        android:layout_marginLeft="30sp"
-        android:layout_marginRight="30sp"
-        android:layout_marginBottom="5sp"
-        />
-
-
-    <EditText
-        android:id="@+id/Userupi"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter UPI id"
-        android:background="@drawable/input_style"
-        android:inputType="text"
-        android:padding="15sp"
-        android:paddingStart="15sp"
-        android:layout_marginTop="0dp"
-        android:layout_marginLeft="30sp"
-        android:layout_marginRight="30sp"
-        />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Password:"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        android:textSize="17sp"
-        android:layout_marginTop="12dp"
-        android:layout_marginLeft="30sp"
-        android:layout_marginRight="30sp"
-        android:layout_marginBottom="5sp"
-        />
-
-
-    <EditText
-        android:id="@+id/userPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Set password"
-        android:inputType="textPassword"
-        android:background="@drawable/input_style"
-        android:padding="15sp"
-        android:paddingStart="15sp"
-        android:layout_marginTop="0dp"
-        android:layout_marginLeft="30sp"
-        android:layout_marginRight="30sp"
-        />
-
-    <TableLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="3dp"
-        android:layout_marginLeft="25sp"
-        android:layout_marginRight="30sp"
-        >
-
-        <TableRow>
-            <CheckBox
-                android:id="@+id/checkbox1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                tools:ignore="HardcodedText"
-                android:layout_marginTop="7dp"
-                />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text=" Agree with"
-                tools:ignore="HardcodedText"
-                android:layout_marginTop="7dp"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:fontFamily="@font/roboto_bold"
-                android:layout_marginRight="5sp"
-                />
-
-            <TextView
-                android:id="@+id/terms"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Terms &amp; Condition"
-                tools:ignore="HardcodedText"
-                android:layout_marginTop="7dp"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:fontFamily="@font/roboto_bold"
-                />
-
-        </TableRow>
-
-    </TableLayout>
-
-    <Button
-        android:id="@+id/createAccount"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Create Account"
-        android:textAllCaps="false"
-        android:textColor="@color/white"
-        android:padding="8dp"
-        android:textSize="18sp"
-        android:background="@drawable/button_styles"
-        android:layout_marginLeft="30sp"
-        android:layout_marginRight="30sp"
-        android:layout_marginTop="12dp"
-        android:layout_gravity="center"
-        />
-
-    <!--    *********************   -->
-    <TableLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="10dp"
-        android:padding="5dp"
-        android:gravity="center">
-
-        <TableRow
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:layout_marginLeft="30sp"
-            android:layout_marginRight="30sp"
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
             >
 
+
             <TextView
-                android:layout_width="150dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:letterSpacing="0.01"
+                android:text="Create Account"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/roboto_bold"
+                tools:ignore="TextSizeCheck" />
+
+            <TextView
+                android:layout_width="330dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="0sp"
-                android:background="@drawable/hr_ruler"
+                android:layout_marginLeft="19sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="19sp"
+                android:fontFamily="@font/roboto_regular"
                 android:gravity="center"
-                android:text="                             "
+                android:padding="5dp"
+                android:text="Fill your information below or register with your social account"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Or login with "
-                android:textColor="@color/black"
-                android:textSize="16sp"
-                />
-
-            <TextView
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:background="@drawable/hr_ruler"
-                android:text="                             "
-                android:layout_marginTop="0sp"
-                android:gravity="center"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="16sp"
-                />
-        </TableRow>
-
-    </TableLayout>
-
-
-    <TableLayout
-        android:layout_width="wrap_content"
-        android:layout_height="83dp"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:layout_marginTop="2dp">
-
-        <TableRow>
-
-            <ImageView
-                android:id="@+id/googleIn"
-                android:layout_width="70dp"
-                android:layout_height="67dp"
-                android:src="@drawable/google"
-                android:layout_marginRight="5sp"
-                android:padding="12sp"
-                android:background="@drawable/icon_style"
-                />
-
-            <ImageView
-                android:id="@+id/facebookIn"
-                android:layout_width="70dp"
-                android:layout_height="67dp"
-                android:src="@drawable/facebook"
-                android:layout_marginLeft="5sp"
-                android:padding="12sp"
-                android:background="@drawable/icon_style"/>
-
-        </TableRow>
-
-    </TableLayout>
-
-    <TableLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:layout_marginTop="7dp">
-
-        <TableRow>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Already have an account?"
-                android:textAlignment="center"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:textSize="15sp"
+                android:text="Name:"
+                android:textColor="@color/black"
                 android:textStyle="bold"
-                android:textColor="@color/black"
-                android:layout_marginTop="0sp"
+                android:textSize="17sp"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="30sp"
+                android:layout_marginRight="30sp"
+                android:layout_marginBottom="5sp"
+                />
+
+
+            <EditText
+                android:id="@+id/userName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your name "
+                android:inputType="text"
+                android:background="@drawable/input_style"
+                android:paddingStart="15sp"
+                android:padding="15sp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="30sp"
+                android:layout_marginRight="30sp"
                 />
 
             <TextView
-                android:id="@+id/signInButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=" Sign In"
-                android:textAlignment="center"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:textSize="15sp"
+                android:text="Email:"
+                android:textColor="@color/black"
                 android:textStyle="bold"
-                android:textColor="@color/universal"
-                android:layout_marginTop="0sp"
+                android:textSize="17sp"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="30sp"
+                android:layout_marginRight="30sp"
+                android:layout_marginBottom="5sp"
                 />
 
-        </TableRow>
 
-    </TableLayout>
+            <EditText
+                android:id="@+id/userEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter email address"
+                android:background="@drawable/input_style"
+                android:inputType="textEmailAddress"
+                android:padding="15sp"
+                android:paddingStart="15sp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="30sp"
+                android:layout_marginRight="30sp"
+                />
 
-</LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile No:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="30sp"
+                android:layout_marginRight="30sp"
+                android:layout_marginBottom="5sp"
+                />
+
+
+            <EditText
+                android:id="@+id/userMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter mobile no"
+                android:inputType="phone"
+                android:background="@drawable/input_style"
+                android:paddingStart="15sp"
+                android:padding="15sp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="30sp"
+                android:layout_marginRight="30sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="30sp"
+                android:layout_marginRight="30sp"
+                android:layout_marginBottom="5sp"
+                />
+
+
+            <EditText
+                android:id="@+id/Username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Set username"
+                android:background="@drawable/input_style"
+                android:inputType="text"
+                android:padding="15sp"
+                android:paddingStart="15sp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="30sp"
+                android:layout_marginRight="30sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="30sp"
+                android:layout_marginRight="30sp"
+                android:layout_marginBottom="5sp"
+                />
+
+
+            <EditText
+                android:id="@+id/userPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Set password"
+                android:inputType="textPassword"
+                android:background="@drawable/input_style"
+                android:padding="15sp"
+                android:paddingStart="15sp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="30sp"
+                android:layout_marginRight="30sp"
+                />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="25sp"
+                android:layout_marginRight="30sp"
+                >
+
+                <TableRow>
+                    <CheckBox
+                        android:id="@+id/checkbox1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText"
+                        android:layout_marginTop="7dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Agree with"
+                        tools:ignore="HardcodedText"
+                        android:layout_marginTop="7dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/roboto_bold"
+                        android:layout_marginRight="5sp"
+                        />
+
+                    <TextView
+                        android:id="@+id/terms"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Terms &amp; Condition"
+                        tools:ignore="HardcodedText"
+                        android:layout_marginTop="7dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/roboto_bold"
+                        />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <Button
+                android:id="@+id/createAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Create Account"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:background="@drawable/button_styles"
+                android:layout_marginLeft="30sp"
+                android:layout_marginRight="30sp"
+                android:layout_marginTop="12dp"
+                android:layout_gravity="center"
+                />
+
+            <!--    *********************   -->
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:gravity="center">
+
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginLeft="30sp"
+                    android:layout_marginRight="30sp"
+                    >
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="0sp"
+                        android:background="@drawable/hr_ruler"
+                        android:gravity="center"
+                        android:text="                             "
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Or login with "
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/hr_ruler"
+                        android:text="                             "
+                        android:layout_marginTop="0sp"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        />
+                </TableRow>
+
+            </TableLayout>
+
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="83dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="2dp">
+
+                <TableRow>
+
+                    <ImageView
+                        android:id="@+id/googleIn"
+                        android:layout_width="70dp"
+                        android:layout_height="67dp"
+                        android:src="@drawable/google"
+                        android:layout_marginRight="5sp"
+                        android:padding="12sp"
+                        android:background="@drawable/icon_style"
+                        />
+                    <!--
+                    <ImageView
+                        android:id="@+id/facebookIn"
+                        android:layout_width="70dp"
+                        android:layout_height="67dp"
+                        android:src="@drawable/facebook"
+                        android:layout_marginLeft="5sp"
+                        android:padding="12sp"
+                        android:background="@drawable/icon_style"/>
+                    -->
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="7dp">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Already have an account?"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="0sp"
+                        />
+
+                    <TextView
+                        android:id="@+id/signInButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Sign In"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/universal"
+                        android:layout_marginTop="0sp"
+                        />
+
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
