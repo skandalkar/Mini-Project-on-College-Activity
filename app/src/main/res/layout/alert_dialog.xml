@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Allow Google to save your vitals data?"
+        android:text="Allow to save your vitals data?"
         android:textStyle="bold"
         android:textSize="18sp"
         android:paddingBottom="16dp" />
@@ -17,8 +17,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Vitals data refers to measurements of certain body functions, including information about your heart rate, respiratory rate, blood pressure, oxygen saturation, body temperature, and blood glucose."
-        android:paddingBottom="8dp" />
+        android:text="By accessing or using this Expense Tracker App, you agree to be bound by these Terms and Conditions. If you do not agree to these terms, please do not use the App."
+        android:paddingBottom="8dp"
+        android:fontFamily="@font/roboto_regular"
+        />
 
     <TextView
         android:layout_width="match_parent"
@@ -29,9 +31,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Fit also uses this data to develop and improve Google's health and fitness services. Usage data is collected for troubleshooting and product improvement."
+        android:text="By using the Expense Tracker App, you agree to these Terms and Conditions, including data collection and usage for providing services, ensuring security, and improving functionality. You must use the App responsibly, without engaging in illegal activities or disrupting its operations. The App is provided 'as is' without warranties, and we are not liable for any damages. We may update these Terms, and continued use signifies acceptance."
         android:paddingBottom="24dp" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
