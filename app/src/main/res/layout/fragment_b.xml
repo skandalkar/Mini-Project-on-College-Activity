@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="15dp"
-        android:text="What is your main goal for using an expense tracker application?"
+        android:text=" What is your main goal for using an expense tracker application?"
         android:textSize="18dp"
         android:paddingStart="5dp"
         android:textColor="@color/black"

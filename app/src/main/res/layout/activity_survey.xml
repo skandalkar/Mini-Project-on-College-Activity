@@ -22,7 +22,7 @@
         android:padding="8dp"
         android:layout_gravity="right"
         />
-
+<!--
     <ProgressBar
         android:id="@+id/progress_bar"
         style="?android:attr/progressBarStyleHorizontal"
@@ -34,7 +34,7 @@
         android:layout_marginBottom="20dp"
         android:layout_marginTop="15dp"
         />
-
+ -->
 
     <!-- res/layout/activity_survey.xml -->
     <LinearLayout
