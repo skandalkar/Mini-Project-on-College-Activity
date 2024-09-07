@@ -89,12 +89,17 @@ public class LoginActivity extends AppCompatActivity {
                         if (task.isSuccessful())
                         {
                             Toast.makeText(LoginActivity.this,"Successfully logged in.",Toast.LENGTH_SHORT).show();
-                            Intent intent = new Intent(LoginActivity.this,DashboardActivity.class);
+                            //Intent intent = new Intent(LoginActivity.this,DashboardActivity.class);
+                            Intent intent = new Intent(LoginActivity.this, SurveyActivity.class);
                             startActivity(intent);
                         }
                         else
                         {
+                            finish();
+                            Intent intent = new Intent(LoginActivity.this, LoginActivity.class);
+                            startActivity(intent);
                             Toast.makeText(LoginActivity.this,"Something went wrong!"+task.getException().getMessage(),Toast.LENGTH_SHORT).show();
+
                         }
                     }
                 });
