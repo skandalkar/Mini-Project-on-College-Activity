@@ -36,8 +36,6 @@ public class SurveyActivity extends AppCompatActivity
             public void onClick(View v)
             {
                 nextActivity();
-//                Intent intent = new Intent(SurveyActivity.this,DashboardActivity.class);
-//                startActivity(intent);
             }
         });
 
@@ -93,11 +91,9 @@ public class SurveyActivity extends AppCompatActivity
         fragmentTransaction.commit();
     }
 
-
     public void nextActivity()
     {
         Intent intent = new Intent(SurveyActivity.this,DashboardActivity.class);
         startActivity(intent);
     }
-
 }

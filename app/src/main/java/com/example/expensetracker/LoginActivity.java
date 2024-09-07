@@ -46,7 +46,6 @@ public class LoginActivity extends AppCompatActivity {
         forgot = findViewById(R.id.forgotPass);
         signUP = findViewById(R.id.signUp);
 
-
         //ImageView
         googleIN = findViewById(R.id.googleIn);
         faceboobkIN = findViewById(R.id.facebookIn);
@@ -60,8 +59,8 @@ public class LoginActivity extends AppCompatActivity {
         // if old user continuing
         signIN.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-
+            public void onClick(View view)
+            {
                 String u_email, u_upi, u_password;
 
                 u_email = USERmail.getText().toString();
@@ -83,9 +82,11 @@ public class LoginActivity extends AppCompatActivity {
 
                 showProgressDialog();
 
-                firebaseAuth.signInWithEmailAndPassword(u_email,u_password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                firebaseAuth.signInWithEmailAndPassword(u_email,u_password).addOnCompleteListener(new OnCompleteListener<AuthResult>()
+                {
                     @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
+                    public void onComplete(@NonNull Task<AuthResult> task)
+                    {
                         if (task.isSuccessful())
                         {
                             Toast.makeText(LoginActivity.this,"Successfully logged in.",Toast.LENGTH_SHORT).show();
