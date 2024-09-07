@@ -77,7 +77,7 @@ public class SignUpActivity extends AppCompatActivity
 
         createAcc = findViewById(R.id.createAccount);
 
-        faceboobkIN = findViewById(R.id.facebookIn);
+        //faceboobkIN = findViewById(R.id.facebookIn);
 
 
         /** For Google Sign-In */
