@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
@@ -50,7 +49,35 @@
         android:textColor="@color/black"
         android:layout_marginTop="48sp"
         />
+    <!--
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile No:"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:layout_marginBottom="10sp"
+            />
 
+
+        <EditText
+            android:id="@+id/mobileNO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="phone"
+            android:background="@drawable/input_style"
+            android:paddingStart="15sp"
+            android:padding="15sp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            />
+    -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -58,22 +85,22 @@
         android:textColor="@color/black"
         android:textStyle="bold"
         android:textSize="17sp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="12dp"
         android:layout_marginLeft="30sp"
         android:layout_marginRight="30sp"
-        android:layout_marginBottom="10sp"
+        android:layout_marginBottom="5sp"
         />
 
 
     <EditText
-        android:id="@+id/mobileNO"
+        android:id="@+id/user_Email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter email address"
-        android:inputType="textEmailAddress"
         android:background="@drawable/input_style"
-        android:paddingStart="15sp"
+        android:inputType="textEmailAddress"
         android:padding="15sp"
+        android:paddingStart="15sp"
         android:layout_marginTop="0dp"
         android:layout_marginLeft="30sp"
         android:layout_marginRight="30sp"
@@ -97,7 +124,7 @@
         android:id="@+id/UPIid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter username"
+        android:hint="Enter your username"
         android:background="@drawable/input_style"
         android:inputType="text"
         android:padding="15sp"
@@ -119,7 +146,6 @@
         android:layout_marginRight="30sp"
         android:layout_marginBottom="10sp"
         />
-
 
     <EditText
         android:id="@+id/passWord"
@@ -239,7 +265,6 @@
                 android:background="@drawable/icon_style"
                 />
 
-            <!--
             <ImageView
                 android:id="@+id/facebookIn"
                 android:layout_width="70dp"
@@ -247,9 +272,8 @@
                 android:src="@drawable/facebook"
                 android:layout_marginLeft="5sp"
                 android:padding="12sp"
-                android:background="@drawable/icon_style"
-            />
-            -->
+                android:background="@drawable/icon_style"/>
+
         </TableRow>
 
     </TableLayout>

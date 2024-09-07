@@ -77,7 +77,7 @@ public class SignUpActivity extends AppCompatActivity
 
         createAcc = findViewById(R.id.createAccount);
 
-        //faceboobkIN = findViewById(R.id.facebookIn);
+        faceboobkIN = findViewById(R.id.facebookIn);
 
 
         /** For Google Sign-In */
@@ -105,13 +105,13 @@ public class SignUpActivity extends AppCompatActivity
         /* ------------------------------------------------------------------------------------------------- */
 
         // for Custom User Mail and pass authentication
-        firebaseAuth = FirebaseAuth.getInstance();
+        firebaseAuth = FirebaseAuth.getInstance();   //Special reserved for.
 
         if (firebaseAuth.getCurrentUser() != null)
         {
             Intent intent = new Intent(SignUpActivity.this,DashboardActivity.class);
             startActivity(intent);
-            //Toast.makeText(SignUpActivity.this,"You already have an account!",Toast.LENGTH_SHORT).show();
+             Toast.makeText(SignUpActivity.this,"You already have an account!",Toast.LENGTH_SHORT).show();
             //finish();
         }
 
@@ -149,7 +149,7 @@ public class SignUpActivity extends AppCompatActivity
                 }
 
                 showProgressDialog();
-                //progressBar.setVisibility(View.VISIBLE);
+
                 firebaseAuth.createUserWithEmailAndPassword(Umail,Upassword).addOnCompleteListener(new OnCompleteListener<AuthResult>()
                 {
                     @Override
@@ -173,7 +173,6 @@ public class SignUpActivity extends AppCompatActivity
                             mobile_no.setText("");
                             user_Name.setText("");
                             user_password.setText("");
-                            /** */
 
                             startActivity(intent);
                         }
@@ -187,7 +186,6 @@ public class SignUpActivity extends AppCompatActivity
                 });
             }
         });
-
 
         /** */
 
@@ -240,7 +238,6 @@ public class SignUpActivity extends AppCompatActivity
             }
         });
     }
-
 
     // Google SignIN
     private void signIn()
@@ -305,6 +302,5 @@ public class SignUpActivity extends AppCompatActivity
         progressDialog.setContentView(R.layout.dialog_progressbar);
         progressDialog.setCancelable(false);
         progressDialog.show();
-        //createAccount(progressDialog);
     }
 }

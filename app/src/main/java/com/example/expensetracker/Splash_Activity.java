@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class Splash_Activity extends AppCompatActivity
 {
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -21,9 +22,8 @@ public class Splash_Activity extends AppCompatActivity
             {
                 try
                 {
-                    /* Where the ideal time of splash screen with progress bar is 3 seconds or 3000 milliseconds. */
-
-                    sleep(2500);  // 2.5 seconds delay to load next activity
+                    sleep(2000);
+                    // 2 seconds delay to load next activity
                     startActivity(new Intent(getApplicationContext(),NavigationActivity.class));
                     finish();
                 }
@@ -37,7 +37,4 @@ public class Splash_Activity extends AppCompatActivity
         splashTread.start();
     }
 }
-
-/***
-      This is Completely ok and perfect working
-  */
+/***  This is Completely ok and perfect working */
