@@ -120,6 +120,13 @@ public class SignUpActivity extends AppCompatActivity
             @Override
             public void onClick(View v) {
 
+                String home_pro_name = user_name.getText().toString();
+                Bundle bundle = new Bundle();
+                bundle.putString("username", home_pro_name);
+
+                FragmentHome fragment = new FragmentHome();
+                fragment.setArguments(bundle);
+
                 Uname = user_name.getText().toString();
                 Umail = user_mail.getText().toString();
                 Umobile = mobile_no.getText().toString();
@@ -161,6 +168,7 @@ public class SignUpActivity extends AppCompatActivity
                             Intent intent = new Intent(SignUpActivity.this,LoginActivity.class);
 
                             /* for firebase */
+
                             Users users = new Users(Uname, Umail, Umobile, Uupi, Upassword);
                             firebaseDatabase = FirebaseDatabase.getInstance();
                             //String userId = reference.push().getKey();
