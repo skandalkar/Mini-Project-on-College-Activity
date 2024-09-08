@@ -79,9 +79,9 @@ Some Outputs:
 
 
 **7. User Insights collection.** <br>
-   <img alt="img_7.png" height="510" src="img_7.png" width="300"/>
-   <img alt="img_8.png" height="500" src="img_8.png" width="300"/>
-   <img alt="img_9.png" height="500" src="img_9.png" width="300"/>
+   <img alt="img_7.png" height="450" src="img_7.png" width="250"/>
+   <img alt="img_8.png" height="450" src="img_8.png" width="250"/>
+   <img alt="img_9.png" height="450" src="img_9.png" width="250"/>
 
 
 **8. Home Screen (Dashboard).** <br>
