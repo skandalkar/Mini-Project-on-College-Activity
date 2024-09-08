@@ -85,8 +85,8 @@ Some Outputs:
 
 
 **8. Home Screen (Dashboard).** <br>
-    <img alt="img_10.png" height="500" src="img_10.png" width="300"/>
+    <img alt="img_10.png" height="450" src="img_10.png" width="350"/>
 
 
 **9. Add Transaction entry.** <br>
-    <img alt="img_11.png" height="500" src="img_11.png" width="300"/>
+    <img alt="img_11.png" height="450" src="img_11.png" width="350"/>
