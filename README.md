@@ -58,7 +58,7 @@ Some Outputs:
  <img alt="img.png" height="500" src="img.png" width="300"/>
 
 
-**2. Onboarding Slider1.** <br>
+**2. Onboarding Sliders.** <br>
 <img alt="img_2.png" height="450" src="img_2.png" width="250"/>
 <img alt="img_3.png" height="450" src="img_3.png" width="250"/>
 <img alt="img_4.png" height="450" src="img_4.png" width="250"/>
