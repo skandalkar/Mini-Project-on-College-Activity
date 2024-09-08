@@ -3,6 +3,7 @@ package com.example.expensetracker;
 import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.Html;
 import android.text.TextUtils;
@@ -36,6 +37,8 @@ import java.util.HashMap;
 
 public class SignUpActivity extends AppCompatActivity
 {
+//    SharedPreferences sharedPreferences = getSharedPreferences("my_prefs", MODE_PRIVATE);
+
     String Uname, Umail, Umobile, Uupi, Upassword;
     DatabaseReference reference;
 
@@ -63,6 +66,8 @@ public class SignUpActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
+
+
 
         user_name = findViewById(R.id.userName);
         user_mail = findViewById(R.id.userEmail);
@@ -120,12 +125,20 @@ public class SignUpActivity extends AppCompatActivity
             @Override
             public void onClick(View v) {
 
+                /*
                 String home_pro_name = user_name.getText().toString();
                 Bundle bundle = new Bundle();
                 bundle.putString("username", home_pro_name);
 
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+                editor.putString("username", home_pro_name);
+                editor.apply();
+
+                sharedPreferences.edit().putString("username", home_pro_name).apply();
+
                 FragmentHome fragment = new FragmentHome();
                 fragment.setArguments(bundle);
+                */
 
                 Uname = user_name.getText().toString();
                 Umail = user_mail.getText().toString();

@@ -14,7 +14,7 @@ import org.w3c.dom.Text;
 public class FragmentHome extends Fragment {
 
     Toolbar toolbar;
-    TextView userProfileName;
+    TextView userProfile_Name;
     public FragmentHome() {
         // Required empty public constructor
     }
@@ -29,16 +29,16 @@ public class FragmentHome extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         View view = inflater.inflate(R.layout.fragment_home, container, false);
-        toolbar = view.findViewById(R.id.home_toolbar);
+       /* toolbar = view.findViewById(R.id.home_toolbar);
 
 
 
-//        userProfileName = view.findViewById(R.id.user_profile_name);
+        userProfile_Name = view.findViewById(R.id.user_profile_name);
 
 
         String userProfileName = getArguments().getString("username");
-        //userProfileName.setText(userProfileName);
-
+        userProfile_Name.setText(userProfileName);
+*/
         return view;
     }
 }
