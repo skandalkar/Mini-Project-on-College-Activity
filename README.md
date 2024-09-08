@@ -51,3 +51,33 @@
 
 This project not only addresses a real-world problem but also offers valuable experience in various aspects of software development, 
  making it a solid choice for your mini-project.
+
+Some Outputs:
+1. Splash Screen with Loader.
+    ![img.png](img.png)
+
+2. Onboarding Slider1.
+    ![img_2.png](img_2.png)
+
+3.  Onboarding Slider2.
+     ![img_3.png](img_3.png)
+
+4. Onboarding Slider3.
+     ![img_4.png](img_4.png)
+   
+5. SignUp Screen (Account Creation).
+     ![img_5.png](img_5.png)
+
+6. Login Screen.
+     ![img_6.png](img_6.png)
+
+7. User Insights collection.
+     ![img_7.png](img_7.png)
+     ![img_8.png](img_8.png)
+     ![img_9.png](img_9.png)
+
+8. Home Screen (Dashboard).
+     ![img_10.png](img_10.png)
+
+9. Add Transaction entry.
+     ![img_11.png](img_11.png)
