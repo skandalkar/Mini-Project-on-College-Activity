@@ -54,7 +54,7 @@ This project not only addresses a real-world problem but also offers valuable ex
 
 Some Outputs:
 1. Splash Screen with Loader.
-    ![img.png](img.png)
+   <img alt="img.png" height="150" src="img.png" width="150"/>
 
 
 2. Onboarding Slider1.
