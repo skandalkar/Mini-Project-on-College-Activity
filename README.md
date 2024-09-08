@@ -59,34 +59,28 @@ Some Outputs:
 
 
 **2. Onboarding Slider1.** <br>
-<img alt="img_2.png" height="500" src="img_2.png" width="300"/>
+<img alt="img_2.png" height="450" src="img_2.png" width="250"/>
+<img alt="img_3.png" height="450" src="img_3.png" width="250"/>
+<img alt="img_4.png" height="450" src="img_4.png" width="250"/>
 
 
-**3. Onboarding Slider2.** <br>
-    <img alt="img_3.png" height="500" src="img_3.png" width="300"/>
-
-
-**4. Onboarding Slider3.** <br>
-    <img alt="img_4.png" height="500" src="img_4.png" width="300"/>
-   
-
-**5. SignUp Screen (Account Creation).** <br>
+**3. SignUp Screen (Account Creation).** <br>
     <img alt="img_5.png" height="500" src="img_5.png" width="300"/>
 
 
-**6. Login Screen.** <br>
+**4. Login Screen.** <br>
     <img alt="img_6.png" height="500" src="img_6.png" width="300"/>
 
 
-**7. User Insights collection.** <br>
+**5. User Insights collection.** <br>
    <img alt="img_7.png" height="450" src="img_7.png" width="250"/>
    <img alt="img_8.png" height="450" src="img_8.png" width="250"/>
    <img alt="img_9.png" height="450" src="img_9.png" width="250"/>
 
 
-**8. Home Screen (Dashboard).** <br>
+**6. Home Screen (Dashboard).** <br>
     <img alt="img_10.png" height="450" src="img_10.png" width="350"/>
 
 
-**9. Add Transaction entry.** <br>
+**7. Add Transaction entry.** <br>
     <img alt="img_11.png" height="450" src="img_11.png" width="350"/>
