@@ -30,12 +30,7 @@ public class FragmentHome extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_home, container, false);
        /* toolbar = view.findViewById(R.id.home_toolbar);
-
-
-
         userProfile_Name = view.findViewById(R.id.user_profile_name);
-
-
         String userProfileName = getArguments().getString("username");
         userProfile_Name.setText(userProfileName);
 */
